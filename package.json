@@ -1,0 +1,30 @@
+{
+  "name": "cidades-json",
+  "version": "1.0.0",
+  "description": "Gerador de cidades.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekaduu/cidadesJson.git"
+  },
+  "keywords": [
+    "cidades",
+    "ibge",
+    "json"
+  ],
+  "author": "carloseduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekaduu/cidadesJson/issues"
+  },
+  "homepage": "https://github.com/thekaduu/cidadesJson#readme",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "csv-parse": "^1.0.0",
+    "request": "^2.65.0"
+  }
+}
